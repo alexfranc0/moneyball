@@ -61,6 +61,3 @@ WHERE t.teamID = 'OAK'
 	AND f.POS != 'P'
 GROUP BY p.nameFirst, p.nameLast, t.teamID, t.yearID, b.H, b.AB
 ORDER BY NAME ASC;
-
-
-
