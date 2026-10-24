@@ -22,4 +22,3 @@ FROM AllstarFull s
 JOIN People p ON s.playerID = p.playerID
 WHERE s.yearID = 2015
 ORDER BY s.lgID ASC
-
